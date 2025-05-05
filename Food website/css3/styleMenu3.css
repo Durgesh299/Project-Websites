@@ -1,0 +1,99 @@
+.h12{
+    position:left;
+    height:100px;
+    width:200px;
+    margin-bottom: 80px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    display:grid;
+    grid-template-columns: repeat(auto);
+    grid-gap:20px 50px;
+}
+.heading{
+    background-color:orangered;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px; 
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column:1/-1;
+    text-align:center;
+    height:auto;
+    width:auto;
+}
+.heading H1{
+    font-weight:400;
+    font-size:30px;
+    letter-spacing: 10px;
+    margin-bottom:10px;
+    
+}
+.heading H3{
+    Font-weight:600;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.food-items img{
+    position: relative;
+    border-radius: 15px 15px 0px;
+    box-shadow:0 0 15px rgb(0,0,0,0.1);
+    }
+.H1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    grid-row-gap: 15px;
+    display:grid;
+    grid-template-rows: auto 1fr 50px;
+}
+.details-sub{
+    display:grid;
+    grid-template-rows: auto auto;
+}
+.details-sub>h5{
+    font-weight:600;
+    font-size: 25px;
+}
+.price{
+    text-align: right;
+}
+.price>h5{
+    color:yellow;
+}
+.details>p{
+    color:darkviolet;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight:400;
+    align-self:stretch;
+}
+.details button{
+    background-color:red;
+    color: white;
+    font-size: 16px;
+    font-weight:600;
+    width:180px;
+    border:none;
+    
+}
+.button
+{
+   background-color:red;
+    color: white;
+    font-size: 16px;
+    font-weight:600;
+    width:180px;
+    border:none; 
+}

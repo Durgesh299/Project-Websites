@@ -1,0 +1,14 @@
+.hi{
+    position: left;
+    height:100px;
+    width:200px;
+    left:auto;
+}
+.nav div{
+    display: inline-block;
+    position:absolute;
+      right:0;
+    padding: 15px;
+    font-size: 30px;
+    color: Yellow;
+    text-align: center;
